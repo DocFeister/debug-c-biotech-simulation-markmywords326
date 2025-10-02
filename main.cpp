@@ -1,13 +1,3 @@
-/*
-This program simulates the growth and mutation of a bacterial colony in a lab over a period of time.
-It includes phases for reproduction, death, and mutations, which can be either beneficial or harmful.
-The simulation runs for a specified number of cycles and prints the population after each cycle.
-
-This program is deliberately riddled with syntax errors for you to find and correct.
-
-This example was created with A.I. (with extra mistakes added by hand) by Dr. Scott Feister for CS M125.
-*/
-
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -67,7 +57,7 @@ int main()
     }
     else
     {
-        std::cout << "After " << cycles << " cycles, " << initialBacteria << " bacteria remain." << std::endl; // Intentional operator error 
+        std::cout << "After " << cycles << " cycles, " << initialBacteria << " bacteria remain." << std::endl; // Intentional operator error
     }
 
     return 0;
