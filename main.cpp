@@ -6,7 +6,7 @@ int main()
 {
     srand(time(0)); // Seed the random number generator
 
-    int initialBacteria; // Starting population of bacteria (should be initialized to 1000)
+    int initialBacteria = 1000; // Starting population of bacteria (should be initialized to 1000)
     int reproductionRate = 3; // Each bacterium reproduces three times per cycle
     int deathRate = 400; // Bacteria that die per cycle
     int mutationChance = 10; // Chance (in percentage) of mutation occurring
